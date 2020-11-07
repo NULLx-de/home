@@ -53,15 +53,17 @@ body{
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.our-story .title h2 {
+.our-story .title h2, .culture .title h2{
   font-weight: 600;
   font-size: 40px;
   color: #263b5e;
 }
-.our-story .title p {
+.our-story .title p, .culture .title p {
   padding-bottom: 40px;
-  font-weight: 400;
+  font-weight: 300;
   color: #6a7695;
+  line-height: 1.6em;
+  font-size: 18px;
 }
 .our-story .card {
   cursor: pointer;
@@ -74,12 +76,46 @@ body{
   box-shadow: 0px 20px 25px #e7e7e7;
 }
 
+/* mission section */
+.mission .card-title{
+  font-weight: 500;
+  font-size: 20px;
+}
+.mission .card-text{
+  font-weight: 300;
+  font-size: 15px;
+  font-color: #6a7695;
+}
+
 /* culture section  */
 .culture{}
 .single-culture{
-
+  border: 0;
+  border-radius: 0;
+}
+.single-culture .card-title{
+  font-weight: 500;
+  font-size: 18px;
+}
+.single-culture .card-text{
+  font-weight: 300;
+  color: #333;
+  font-size: 14px;
 }
 .single-culture .card-img{
-  width: 32px;
-  height: 32px;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 45%;
+  margin-left: 5px;
+}
+.single-culture .col-md-10{
+  padding-left: 15px;
+}
+.mission-one .card-img {
+  background: #E8E1FC;
+}
+.mission-two .card-img {
+  background: #d4f6ee;
 }
