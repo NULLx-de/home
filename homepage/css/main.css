@@ -44,4 +44,32 @@ body{
 }
 .slogan-section img{
    background-size: contain;
+   width: 80%;
+}
+
+
+/* our story section  */
+.our-story{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.our-story .title h2 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #263b5e;
+}
+.our-story .title p {
+  padding-bottom: 40px;
+  font-weight: 400;
+  color: #6a7695;
+}
+.card {
+  cursor: pointer;
+  box-shadow: 0px 10px 15px #f7f7f7;
+  border-radius: 0;
+  border: 0;
+  transition: all 0.3s linear;
+}
+.card:hover{
+  box-shadow: 0px 20px 25px #e7e7e7;
 }
