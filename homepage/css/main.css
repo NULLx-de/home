@@ -63,13 +63,23 @@ body{
   font-weight: 400;
   color: #6a7695;
 }
-.card {
+.our-story .card {
   cursor: pointer;
   box-shadow: 0px 10px 15px #f7f7f7;
   border-radius: 0;
   border: 0;
   transition: all 0.3s linear;
 }
-.card:hover{
+.our-story .card:hover{
   box-shadow: 0px 20px 25px #e7e7e7;
+}
+
+/* culture section  */
+.culture{}
+.single-culture{
+
+}
+.single-culture .card-img{
+  width: 32px;
+  height: 32px;
 }
