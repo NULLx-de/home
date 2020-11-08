@@ -14,7 +14,7 @@
 
     <title>NULLx</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- All the HTML section goes here .. -->
     <!-- header section -->
       <nav class="navbar navbar-expand-lg navbar-light sticky-top pl-0 ml-0" id="navigationHeader">
@@ -30,19 +30,19 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Story</a>
+              <a class="nav-link" href="#ourStory">Our Story</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Culture</a>
+              <a class="nav-link" href="#culture">Culture</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tech Blog</a>
+              <a class="nav-link" href="#team">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Product</a>
+              <a class="nav-link" href="#techBlog">Tech Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -238,8 +238,48 @@
           </div>
         </div>
       </div> 
-
     </div>
+
+    <!-- team section  -->
+    <div class="container-fluid team-section" id="team">
+      <div class="container">
+       <div class="row title text-center title d-flex flex-column mx-auto">
+          <h2>Innovative Team</h2>
+          <p>Meet Our Awesome And Expert Team Members</p>
+       </div>
+
+       <div class="row">
+        <div class="col-sm">
+          <div class="card mission">
+            <img src="img/adam.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Meshu Deb Nath</h5>
+              <p class="card-text">Software Engineer</p>
+            </div>
+         </div>
+       </div>
+
+        <div class="col-sm">
+          <div class="card mission">
+            <img src="img/adam.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Meshu Deb Nath</h5>
+              <p class="card-text">Software Engineer</p>
+            </div>
+          </div>
+          </div>
+            <div class="col-sm">
+              <div class="card mission">
+                <img src="img/adam.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Meshu Deb Nath</h5>
+                  <p class="card-text">Software Engineer</p>
+                </div>
+            </div>
+          </div>
+       </div> <!-- ending row -->
+    </div> <!-- ending container -->
+   </div> <!-- ending container-fluids -->
     
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
