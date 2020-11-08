@@ -56,12 +56,17 @@ body{
   padding-bottom: 80px;
   
 }
-.our-story .title h2, .culture .title h2, .team-section .title h2{
+ .our-story .title h2, .culture .title h2,
+ .team-section .title h2,
+ .contact-section .title h2{
   font-weight: 600;
   font-size: 40px;
   color: #263b5e;
 }
-.our-story .title p, .culture .title p, .team-section .title p {
+.our-story .title p, 
+.culture .title p, 
+.team-section .title p,
+.contact-section .title p {
   padding-bottom: 40px;
   font-weight: 300;
   color: #6a7695;
@@ -136,4 +141,12 @@ body{
   padding-top: 80px;
   padding-bottom: 80px;
   background-image: url('../img/photography.png');
+}
+
+.contact-section{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.contact-section .form-control{
+  
 }
