@@ -1,6 +1,10 @@
 /* Theme name: NULLX homepage
    Version: 1.0.0
 */
+ /* resources: 
+    font-family: 'Londrina Outline', cursive;
+    font-family: 'Poppins', sans-serif;
+ */
 
 body{
   transition: all 0.5s;
@@ -146,7 +150,22 @@ body{
 .contact-section{
   padding-top: 80px;
   padding-bottom: 80px;
+  background-image: url('../img/cloud.png');
+  background-position: top;
+  background-size: cover;
+  background-color: #5e2ced;
 }
 .contact-section .form-control{
-  
+  max-width: 400px;
+  color: #949db5;
+  background: #fff;
+  border: 0;
+  box-shadow: none;
+}
+.contact-section .title h2{
+  color: #fff;
+}
+.contact-section .title p{
+  color: #F7FDFC;
+  font-weight: 300;
 }
