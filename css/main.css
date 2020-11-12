@@ -290,9 +290,8 @@ html {
 .contact-section{
   /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
   /* background-image: linear-gradient(120deg, #fefefe 0%, #ebedee 100%); */
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .contact-section .title h2{
   color: #000;
