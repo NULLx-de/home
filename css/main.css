@@ -98,7 +98,6 @@ body{
 .mission .card-text{
   font-weight: 300;
   font-size: 15px;
-  font-color: #6a7695;
 }
 
 /* culture section  */
@@ -187,9 +186,6 @@ html {
   padding-bottom: 25px;
   line-height: 1.7rem;
 }
-.right-culture-body{
-  
-}
 .right-culture-body img:nth-child(odd) {
   margin-left: 35px;
 }
@@ -273,7 +269,6 @@ html {
   color: #4d4d4d;
 }
 
-.social-media-list{}
 .social-media-list ul{
   list-style: none;
   margin: 0;
