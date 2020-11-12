@@ -148,7 +148,6 @@ body{
 .main-culture-content{
  background: url('../img/dot-image.png');
  background-repeat: no-repeat;
- margin-top: 30px;
 }
 
 .left-culture-body{
@@ -190,6 +189,9 @@ html {
 }
 .right-culture-body{
   
+}
+.right-culture-body img:nth-child(odd) {
+  margin-left: 35px;
 }
 .right-culture-body img{
     display: block;
