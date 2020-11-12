@@ -306,7 +306,7 @@ html {
 }
 .phone-icon{
   display:inline;
-  width: 32px;
+  width: 30px;
 }
 .contact-area .submit{
     color: #5e2ced;
@@ -343,11 +343,15 @@ html {
   margin-left: 15px;
 }
 .address .phone h5{
-  font-size: 25px;
+  font-size: 20px;
   color: #545454;
   font-weight: 500;
   padding-left: 10px;
   padding-bottom: 30px;
+}
+
+.address .phone img{
+  width: 25px;
 }
 
 /* footer-section */
