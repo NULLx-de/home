@@ -25,9 +25,10 @@ body{
 }
 .slogan-section{
   padding-bottom: 50px;
+  height: 100vh;
 }
 .slogan-section h2{
-  padding-top: 120px;
+  padding-top: 140px;
   font-weight: 600;
   font-size: 60px;
   color: #263b5e;
