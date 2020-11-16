@@ -23,12 +23,15 @@ body{
   transition: all 0.5s;
   color: #0056b3;
 }
+#logoImg{
+  width: 200px;
+}
 .slogan-section{
   padding-bottom: 50px;
   height: 100vh;
 }
 .slogan-section h2{
-  padding-top: 140px;
+  padding-top: 180px;
   font-weight: 600;
   font-size: 60px;
   color: #263b5e;
@@ -69,6 +72,9 @@ body{
   font-size: 40px;
   color: #263b5e;
 }
+.our-story .title h2{
+  padding-top: 30px;
+}
 .our-story .title p, 
 .culture .title p, 
 .team-section .title p,
@@ -104,7 +110,7 @@ body{
 /* culture section  */
 .culture{
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 110px;
 }
 .single-culture{
   border: 0;
@@ -254,6 +260,9 @@ html {
   margin-bottom: 50px;
   background: #fff;
 }
+.team-section .title h2{
+  padding-top: 60px;
+}
 .team-member .card-img{
   width:250px;
   height: 250px;
@@ -269,7 +278,9 @@ html {
   font-weight: 400;
   color: #4d4d4d;
 }
-
+.extra-padding{
+  padding-top: 49px;
+}
 .social-media-list ul{
   list-style: none;
   margin: 0;
@@ -296,6 +307,7 @@ img.card-img-top {
 }
 .contact-section .title h2{
   color: #000;
+  padding-top: 30px;
 }
 .contact-section .title p{
   color: #000;
