@@ -87,11 +87,12 @@ body{
   font-size: 17px;
 }
 .our-story .card {
-  cursor: pointer;
+  cursor: copy;
   box-shadow: 0px 10px 15px #f7f7f7;
   border-radius: 0;
   border: 0;
   transition: all 0.3s linear;
+  height: 100%;
 }
 .our-story .card:hover{
   box-shadow: 0px 20px 25px #e7e7e7;
@@ -106,6 +107,7 @@ body{
   font-weight: 300;
   font-size: 15px;
 }
+
 
 /* culture section  */
 .culture{
@@ -173,7 +175,9 @@ body{
 }
 .row.single-culture:nth-child(6){
   margin-top: -25px;
-
+}
+.row.single-culture:nth-child(3){
+  padding-top: 150px;
 }
 .left-culture-body h3{
   font-family: 'Londrina Outline', cursive;
