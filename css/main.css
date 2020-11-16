@@ -283,7 +283,9 @@ html {
   color: #6a7695;
   padding: 0;
 }
-
+img.card-img-top {
+  max-height: 344px;
+}
 /* contact section  */
 .contact-section{
   /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
