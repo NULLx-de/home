@@ -1,0 +1,51 @@
+body {
+  position: relative;
+  background-color: white;
+}
+
+.text {
+  color: red;
+}
+
+style {
+  color: red;
+}
+h2 {
+  background-color: #1c83a5;
+  color: white;
+}
+
+h3 {
+  color: #1c83a5;
+}
+
+.container-fluid {
+  width: 100%;
+  height: auto;
+}
+
+#s1 {
+  padding: 2rem;
+  background-color: #f1f1f1;
+}
+#s2 {
+  padding: 2rem;
+}
+
+#image1 {
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+}
+
+#head {
+  padding: 2rem;
+  background-color: #1c83a5;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+
+#fot {
+  align-items: center;
+}
