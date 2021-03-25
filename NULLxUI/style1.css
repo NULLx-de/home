@@ -1,0 +1,47 @@
+body {
+  background-color: white;
+}
+
+.text {
+  float: inline-end;
+  color: red;
+}
+
+style {
+  color: red;
+}
+
+.welcome{
+  text-align: center;
+  background: #1c83a5;
+  color: #FFF;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  margin: 0;
+}
+
+.welcome2{
+  background: #1c83a5;
+  color: #FFF;
+  padding: 2rem;
+  margin: 0;
+
+}
+#sec{
+
+  padding: 2rem;
+ 
+}
+
+.h4color
+{
+  color:#1c83a5;
+}
+
+.cards{
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+}
